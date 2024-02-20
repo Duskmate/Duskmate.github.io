@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Saksham Singhal is a Web-Designer / Developer Who Designs Awesome Websites With HTML, CSS And a aesthetic Touch Of JQuery">
+  <meta name="keywords" content="saksham singhal, web designing, web developer, freelancer, front-end developer">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/main.css">
+  <link rel="stylesheet" media="screen and (max-width:1160px)" href="./css/tablet.css">
+  <link rel="stylesheet" media="screen and (max-width:768px)" href="./css/mobile.css">
+    <link rel="stylesheet" media="screen and (max-width:370px)" href="./css/small.css">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,900;1,900&family=Noto+Sans+JP:wght@300&display=swap" rel="stylesheet">
+  <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+  <link rel="manifest" href="site.webmanifest">
+  <title>Saksham | Web-Designer & Developer</title>
+</head>
+<body>
+  <div class="mast-head flex-col">
+    <!-- Navigation Bar -->
+    <nav class="navbar flex nav-mob-ab">
+      <div class="head"><a href="./index.html">SAKSHAM</a></div>
+      <div class="menu">
+        <ul>
+          <li><a href="./index.html">Home</a></li>
+          <li><a href="./about.html">About</a></li>
+          <li><a href="./work.html">Work</a></li>
+          <li><a class="current" href="./contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <!-- Mobile -->
+    <div class="menu-wrap">
+      <input type="checkbox" class="toggler">
+      <div class="hamburger"><div></div></div>
+      <div class="menu">
+        <div>
+          <div>
+            <ul>
+              <li><a href="./index.html">Home</a></li>
+              <li><a href="./about.html">About</a></li>
+              <li><a href="./work.html">Work</a></li>
+              <li><a class="current" href="./contact.html">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Heading -->
+    <div class="contact flex">
+      <h2>Lets Talk</h2>
+      <p1>I am available for freelance, fill the form below or</p1>
+      <p2>Email me at <span>hello@saksham.page</span></p2>
+    </div>
+    <!-- Contact Form -->
+    <div class="form">
+      <form name="contact" method="POST" data-netlify="true" data-netlify-recaptcha="true" >
+        <div class="form-group">
+          <div class="contain">
+            <label for="name">Name</label>
+            <input type="text" name="name" placeholder="Name"class="text-fields name">
+          </div>
+          <div class="contain">
+            <label for="email">Email Address</label>
+            <input type="email" name="Email" placeholder="Email"class="text-fields email">
+          </div>
+          <div class="contain">
+            <label for="message">Message</label>
+            <textarea
+            class="text-fields message"
+            placeholder="Enter Message"
+            name="message"
+          ></textarea>
+          </div>
+          <div class="recap" data-netlify-recaptcha="true"></div>
+          <button type="submit" class="btn-lead btn-sub">Submit</button>
+        </div> 
+        <div class="container">
+          <div class="cube">
+            <div class="sides">
+              <div class="top"></div>
+              <div class="right"></div>
+              <div class="bottom"></div>
+              <div class="left"></div>
+              <div class="front"></div>
+              <div class="back"></div>
+            </div>
+          </div>
+          <div class="text">BUNDLING DEPENDENCIES</div>
+        </div>
+      </form>
+    </div>
+    <!-- Footer -->
+    <div class="footer footer-tab">
+      Copyright &copy; <a href="./index.html">Saksham</a>. <span>All Rights Reserved</span>
+    </div>
+  </div>
+</body>
+</html>
